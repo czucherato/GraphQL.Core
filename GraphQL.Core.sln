@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9A80D19-5ED6-455F-A6BF-7D3C7CC4F4A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{06BAE30E-FC56-4393-B848-C01FBB968732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Core.API", "src\web\GraphQL.Core.API\GraphQL.Core.API.csproj", "{B770E51C-5D9C-40BB-96BC-515754B0E0A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B770E51C-5D9C-40BB-96BC-515754B0E0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B770E51C-5D9C-40BB-96BC-515754B0E0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B770E51C-5D9C-40BB-96BC-515754B0E0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B770E51C-5D9C-40BB-96BC-515754B0E0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06BAE30E-FC56-4393-B848-C01FBB968732} = {B9A80D19-5ED6-455F-A6BF-7D3C7CC4F4A6}
+		{B770E51C-5D9C-40BB-96BC-515754B0E0A8} = {06BAE30E-FC56-4393-B848-C01FBB968732}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C17715B-EEE4-4406-844D-3A592B9FC291}
+	EndGlobalSection
+EndGlobal
